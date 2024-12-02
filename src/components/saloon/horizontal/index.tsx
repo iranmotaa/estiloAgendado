@@ -1,11 +1,11 @@
 import { View, Pressable, Text, Image } from 'react-native';
 import { SaloonProps } from '..';
 
-export function RestaurantItem({ item }: { item: SaloonProps }) {
+export function SaloonItem({ item }: { item: SaloonProps }) {
  return (
    <Pressable 
     className='flex flex-col items-center justify-center'
-    onPress={() => console.log("CLICOU NO RESTAURANTE " + item.name)}
+    onPress={() => console.log("CLICOU NO Salão " + item.name)}
     >
     <Image
       source={{ uri: item.image}}

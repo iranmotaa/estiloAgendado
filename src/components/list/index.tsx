@@ -1,6 +1,6 @@
 import { View, Text} from 'react-native';
 import { useState, useEffect } from 'react'
-import { RestaurantItem } from './item'
+import { SaloonItem } from './item'
 
 export interface SaloonProps{
   id: string;
@@ -8,7 +8,7 @@ export interface SaloonProps{
   image: string;
 }
 
-export function RestaurantVerticalList() {
+export function SaloonVerticalList() {
   const [saloon, setSaloon] = useState<SaloonProps[]>([])
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export function RestaurantVerticalList() {
  return (
    <View className="px-4 flex-1 w-full h-full mb-11 gap-4">
     {saloon.map( item => (
-      <RestaurantItem item={item} key={item.id}/>
+      <SaloonItem item={item} key={item.id}/>
     ))}
    </View>
   );

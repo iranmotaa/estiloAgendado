@@ -2,7 +2,7 @@ import { View, Pressable, Text, Image } from 'react-native';
 import { SaloonProps } from '..'
 import { Ionicons } from '@expo/vector-icons'
 
-export function RestaurantItem({ item }: { item: SaloonProps }) {
+export function SaloonItem({ item }: { item: SaloonProps }) {
  return (
    <Pressable className='flex flex-row items-center justify-start gap-2'>
      <Image

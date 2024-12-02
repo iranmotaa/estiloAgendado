@@ -7,7 +7,7 @@ import { Search } from "../components/search";
 import { Section } from '../components/section'
 import { TrendingHair } from "../components/trending";
 import { Saloon } from "../components/saloon";
-import { RestaurantVerticalList } from '../components/list'
+import { SaloonVerticalList } from '../components/list'
 
 
 const statusBarHeight = Constants.statusBarHeight;
@@ -51,7 +51,7 @@ export default function Index() {
         size="text-xl"
       />
 
-      <RestaurantVerticalList/>
+      <SaloonVerticalList/>
 
     </ScrollView>
   );

@@ -1,6 +1,6 @@
 import { FlatList } from 'react-native';
 import { useEffect, useState  } from 'react'
-import { RestaurantItem } from './horizontal'
+import { SaloonItem } from './horizontal'
 
 export interface SaloonProps{
   id: string;
@@ -25,7 +25,7 @@ export function Saloon() {
  return (
   <FlatList
     data={saloon}
-    renderItem={ ({ item }) => <RestaurantItem item={item} /> }
+    renderItem={ ({ item }) => <SaloonItem item={item} /> }
     horizontal={true}
     contentContainerStyle={{ gap: 14, paddingLeft: 16, paddingRight: 16}}
     showsHorizontalScrollIndicator={false}
