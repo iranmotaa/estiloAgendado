@@ -1,0 +1,76 @@
+{
+  "saloon": [
+    {
+      "id": "1",
+      "name": "Mestre Barbearia",
+      "image": "https://imgs.search.brave.com/d3DTGYIBxDmzd9Gg2SGOnnbFvHIlyf0FtuJHX9L6ZLI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hdmVj/LmFwcC9fbmV4dC9p/bWFnZS8_dXJsPWh0/dHBzOi8vcmVzLmNs/b3VkaW5hcnkuY29t/L2F2ZWNicmFzaWwv/aW1hZ2UvdXBsb2Fk/L3NhbGFvdmlwL3Nh/bG9lcy9tZXN0cmUt/YmFyYmVpcm8vOTE3/OTMtMjAyMy0wOC0w/OS0wOS0yMi0yMi5q/cGcmdz0zODQwJnE9/NzU"
+    },
+    {
+      "id": "2",
+      "name": "Barbearia Premium",
+      "image": "https://www.artesanosbarbershop.com.br/img/artesanos-barber-shop-beer-servicos-bar-beer.png"
+    },
+    {
+      "id": "3",
+      "name": "Cabelo e Barba",
+      "image": "https://imgs.search.brave.com/E1ujT8K2am4_QFaMl-Ujy91lpvoAO0kl1r5cLvKlvFs/rs:fit:860:0:0:0/g:ce/aHR0cDovL3d3dy5j/b25mcmFyaWFkYWJh/cmJhLmNvbS5ici93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNC8x/Mi8xOC1DYWJlbG8t/QmFyYmEucG5n"
+    },
+    {
+      "id": "4",
+      "name": "Estética Masculina",
+      "image": "https://www.artesanosbarbershop.com.br/img/artesanos-barber-shop-beer-equipe-ilustracao.png"
+    },
+    {
+      "id": "5",
+      "name": "Barber Shop",
+      "image": "https://imgs.search.brave.com/uG3kAsdS32Ywd3s1_PWKMjiz348j6ataKwk-p9DQ3iQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YXJ0ZXNhbm9zYmFy/YmVyc2hvcC5jb20u/YnIvaW1nL2FydGVz/YW5vcy1iYXJiZXIt/c2hvcC1iZWVyLXBy/b2R1dG9zLWlsdXN0/cmFjYW8ucG5n"
+    },
+    {
+      "id": "6",
+      "name": "Estúdio do Corte",
+      "image": "https://imgs.search.brave.com/P25U9yE2fg2AkKLvC2_TIDzq-OEAVf-3WFyy4HYCQwQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YXJ0ZXNhbm9zYmFy/YmVyc2hvcC5jb20u/YnIvaW1nL2FydGVz/YW5vcy1iYXJiZXIt/c2hvcC1iZWVyLXNl/cnZpY29zLWlsdXN0/cmFjYW8ucG5n"
+    }
+  ],
+  "hair": [
+    {
+      "id": "1",
+      "name": "Mullet",
+      "price": 39.9,
+      "rating": 4.8,
+      "image": "https://imgs.search.brave.com/tSu5-fep_FG_0cviJm62CKjbjdwNJZ4H0dpcXEYE3ss/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTMy/NTk0NDg4L3Bob3Rv/L3lvdW5nLW1hbi13/aXRoLW11bGxldC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/RDlnaThZcVBoS2NP/STdkX1k3QkE4cHY4/NlIycXUzalNTMTE5/TmlURUVnTT0",
+      "saloonId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Taper Fade",
+      "price": 29,
+      "rating": 4.9,
+      "image": "https://imgs.search.brave.com/ac_znGdjYbNG8ioWw-hN9YuE17IV6cIDfai5sc6aEbk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdDRh/bGx0aGluZ3M0cDRj/aS5ibG9iLmNvcmUu/d2luZG93cy5uZXQv/YWxsdGhpbmdzaGFp/ci9hbGx0aGluZ3No/YWlyL3dwLWNvbnRl/bnQvdXBsb2Fkcy9z/aXRlcy8yLzIwMjIv/MDkvMTM0NzMwL2Rl/Z3JhZGUtbWFzY3Vs/aW5vLWNvcnRlLWFt/ZXJpY2Fuby1jYWJl/bG8tb25kdWxhZG8t/Y2FjaGVhZG8tdGFw/ZXItZmFkZS5qcGc",
+      "saloonId": "6"
+    },
+    {
+      "id": "3",
+      "name": "Undercut",
+      "price": 40,
+      "rating": 4.5,
+      "image": "https://imgs.search.brave.com/y4_Tgb5b7Isx_23PY1_8BQXVXtga49_UY8cywFT0_wQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/Lm9jZWFuZS5jb20u/YnIvd3AtY29udGVu/dC91cGxvYWRzLzIw/MjQvMDYvZGVzdGFx/dWUtdW5kZXJjdXQt/bWFzY3VsaW5vLmpw/Zw",
+      "saloonId": "5"
+    },
+    {
+      "id": "4",
+      "name": "Caesar",
+      "price": 36,
+      "rating": 4.4,
+      "image": "https://imgs.search.brave.com/clwDo1Q0Zj95tTDcFGCNQhtG-O4BVEeatqh3Ceh9zaA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/Lm1lbnNtYXJrZXQu/Y29tLmJyL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIxLzAzL1Jp/c2NvLW5hLXNvYnJh/bmNlbGhhXy1jb21v/LWFkb3Rhci1vLWVz/dGlsby1jaGF2b3Nv/LTQ4MXg2MDAuanBn",
+      "saloonId": "3"
+    },
+    {
+      "id": "5",
+      "name": "Afro Round",
+      "price": 20,
+      "rating": 4.4,
+      "image": "https://imgs.search.brave.com/_D9d6NJBmZKiChnpv3zR1deMrTI4j2H2aR0v_e3H5DE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tb2Rh/cGFyYWhvbWVucy5j/b20uYnIvd3AtY29u/dGVudC91cGxvYWRz/L2NhYmVsby1hZnJv/LW1hc2N1bGluby5q/cGc",
+      "saloonId": "3"
+    }
+  ]
+}
